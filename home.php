@@ -1,13 +1,12 @@
-<?php
-    session_start();
-    require_once "libreriasindex.php";
-?>
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <link rel="icon" href="images/igg.png" type="image/png" />
 		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1" />  
 		<title>Pandora</title>
+        <?php
+            include("libreriasindex.php");
+        ?>
         <script src="js/logicas_login.js"></script>
     </head>
     <body>
