@@ -11,9 +11,11 @@
 <link rel="stylesheet" type="text/css" href="css/estilos_index.css">
 
 
-<script src="js/jquery-1.10.2.js"></script> <!--para autocomplete-->
-<script src="js/jquery-ui.js"></script> <!--para autocomplete-->  
+<!--<script src="js/jquery-1.10.2.js"></script> para autocomplete-->
+<!--<script src="js/jquery-ui.js"></script> para autocomplete-->  
 <!--<script src="js/jquery.min.js"></script>-->
+<script src="js/jquery-3.2.0.js"></script>
+<script src="js/jquery-ui.min.js"></script>
 <script src="lib/bootstrap/popper.min.js"></script>
 <script src="lib/bootstrap/bootstrap.min.js"></script>
 <script src="lib/dataTables/jquery.dataTables.min.js"></script>
