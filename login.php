@@ -5,7 +5,6 @@
 		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1" />  
 		<title>Pandora</title>
         <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">    
-        <link rel="stylesheet" type="text/css" href="js/jquery-ui.css">
         <link rel="stylesheet" type="text/css" href="lib/bootstrap/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="lib/dataTables/bootstrap.css">
         <link rel="stylesheet" type="text/css" href="lib/dataTables/dataTables.bootstrap4.min.css">
