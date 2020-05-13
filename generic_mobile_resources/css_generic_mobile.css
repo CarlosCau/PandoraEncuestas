@@ -1,18 +1,18 @@
 #divHeader{
     height: 10vh;
     color: whitesmoke;
-    background-color: #AF272F;
+    background-color: #A41A22;
 }
 
 #divMap{
     height: 80vh;
-    background-color: whitesmoke;
+    background: whitesmoke;
 }
 
 #divFooter{
     height: 10vh;
-    color: whitesmoke;
-    background-color: #AF272F;
+    color: #A41A22;
+    background-color: #A41A22;
 }
 
 /* RADIOS */
@@ -88,14 +88,20 @@
 }
 
 .btn-light {
-    margin-top: 20%;
+    margin: 15px 0 10px 0;
+    background-color: #ababab;
+}
+
+.btn-light:active {
+    margin: 15px 0 10px 0;
+    background-color: #858585;
+    border: 1px solid #5e5e5e;
 }
 
 .btn-light:hover {
-    margin-top: 20%;
-    background-color: #9c9c9c;
-    border-color: black;
-    border-width: 3px;
+    margin: 15px 0 10px 0;
+    background-color: #858585;
+    border: 2px solid #5e5e5e;
 }
 
 .btn-warning {
@@ -191,8 +197,8 @@ input[type="range"] {
     margin-top: 0px;
     margin-left: 0px;
     background-color: #BDBDBD;
-    opacity: 0.8;
-    height: 15px;
+    opacity: 1;
+    height: 20px;
     width: 55px;
     position: relative;
     z-index: 2020;
@@ -206,9 +212,9 @@ input[type="range"]::-webkit-slider-thumb {
     width: 28px;
     height: 28px;
 
-    -webkit-border-radius: 40px;
-    -moz-border-radius: 40px;
-    border-radius: 40px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 45px;
+    border-radius: 50px;
     background-color:#2E64FE;
     
 }  
@@ -223,9 +229,9 @@ input[type="range"]::-webkit-slider-thumb {
     color: black;
     position: relative;
     z-index: 2000;
-    margin-top: -16px;
+    margin-top: -20px;
     margin-left: 15px;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: bold;
     width: 55px;
     border: 0;
