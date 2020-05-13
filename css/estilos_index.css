@@ -43,6 +43,7 @@ body{
 }
 .divbody{
     margin-top: 80px;
+    padding: 0px 15px 0px 50px;
 }
 .tituloHead{
     margin-top: 5px;
@@ -268,6 +269,17 @@ input[type=password]{
     .btnGuardar{
         font-size: 20px;
         width: 100%;
+    }
+    
+    #contenedorImg{
+        width: 120%;
+        border: 0px solid #000;
+    }
+    
+    .container-fluid{
+        margin-right: 300px;
+        padding: 15px 15px 15px 15px;
+        border: 0px solid #000;
     }
     
 }
