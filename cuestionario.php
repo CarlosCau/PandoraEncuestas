@@ -69,7 +69,7 @@
                                     <input id="numAutolocate" type="range" min="1" max="31" step="30" value="1">
                                 </div>
                                 <div >
-                                    <input class="sliderText " type="text"  placeholder="On     Off">
+                                    <input class="sliderText " type="text"  placeholder=" On   Off ">
                                     
                                 </div>
                             </div>
@@ -87,19 +87,21 @@
                         
                         <button id="btnIngresar" class="btn btn-primary centrado btn_ingresar">Levantar Encuesta</button>
                     </div>
+                    
                     <footer id="footer"><!--Botones a pie de Pagina-->
-                        <div class="row">
-                            <div class="col-4 borde">
-                                <button id="vistamap" class="btnMenu"><span class="fas fa-globe-americas"></span></button>
+                        <div class="btn-group btn-group-justified row">
+                            <div class="btn-group col-4 borde">
+                                <button id="vistamap" class="btn btn-light btnMenu"><span class="fas fa-globe-americas"></span></button>
                             </div>
-                            <div class="col-4 borde">
-                                <button id="addPoint" class="btnMenu"><span class="fas fa-map-marker-alt"></span></button>
+                            <div class="btn-group col-4 borde">
+                                <button id="addPoint" class=" btn btn-light btnMenu"><span class="fas fa-map-marker-alt"></span></button>
                             </div>
-                            <div class="col-4 borde">
-                                <button id="info" class="btnMenu"><span class="fas fa-info"></span></button>
+                            <div class="btn-group col-4 borde">
+                                <button id="info" class="btn btn-light btnMenu"><span class="fas fa-info"></span></button>
                             </div>
                         </div>
                     </footer>
+                    
                 </div>
                     
                 <div id="cuestionario" class="col-sm-12 col-lg-12 borde"><!--Capa de Cuestionario-->
