@@ -59,12 +59,14 @@ input[type=text]{
     color: #a41a22;
     font-size: 14px;
     position: absolute;
+    border: 0px solid #fff;
 }
 .btnMenu{
     width: 100%;
     background: #a41a22;
     color: #fff;
     font-size: 30px;
+    border: 0px solid #fff;
 }
 #cuestionario{
     display: none;
@@ -402,20 +404,39 @@ wrap {
 }
 
 #footer {
+    height: 12.1vh;
     width:100%; 
-    float:left; 
+    float:left;
+    margin: 0px 0px 0px 0px;
+    background-color: #a41a22;
 }
 footer {
+    background-color: #a41a22;
     position:fixed; 
     bottom:0; 
     z-index:999999;
+    background: #a41a22;
 }
 .btnMenu{
-    background: #a41a22;
+    height: 10vh;
+    background-color: #a41a22;
     color: #fff;
     font-size: 30px;
-    height: 50px;
-    margin-bottom: 0px;
+    height: 70px;
+    width: 250px;
+    margin: 0 10px 0 10px;
+}
+
+.btn-group-justified{
+    background: #a41a22;
+    margin: 0 15px 0 15px;
+    border: 0px solid #fff;
+}
+
+.btn-group{
+    background: #a41a22;
+    padding: 0 0 0 0;
+    border: 0px solid #fff;
 }
 
 @media only screen and (max-width: 768px) {
