@@ -159,7 +159,8 @@
                                             $queryResp= "SELECT * 
                                                             FROM cuestionario_sedatu
                                                             WHERE nivel='resp'
-                                                            AND padre='$numPregunta'";
+                                                            AND padre='$numPregunta'
+                                                            ORDER BY numitem ASC";
                                             
                                             $resultadorespuestas = pg_query($conexion, $queryResp);
 
