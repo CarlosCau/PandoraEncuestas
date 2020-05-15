@@ -1,4 +1,5 @@
 <?php
+date_default_timezone_set('America/Mexico_City');
 require_once "conexion_pg.php";
 
 $hoy = date("Y-m-d");
